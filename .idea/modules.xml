@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GBlurredView.iml" filepath="$PROJECT_DIR$/GBlurredView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blurredibrary/blurredibrary.iml" filepath="$PROJECT_DIR$/blurredibrary/blurredibrary.iml" />
     </modules>
   </component>
 </project>

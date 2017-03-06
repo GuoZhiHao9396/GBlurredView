@@ -1,53 +1,29 @@
 # GBlurredView
-#沉浸式状态栏
+#高斯模糊
 
 ![image](https://github.com/GuoZhiHao9396/GBlurredView/blob/master/app/src/main/res/raw/test.gif)
 
 AndroidStudio使用Gradle构建添加依赖（推荐）
 
-Step 1. Add the JitPack repository to your build file
-
 Add it in your root build.gradle at the end of repositories:
 ```java
-	allprojects {
-		repositories {
-			...
-			maven { url "https://jitpack.io" }
-		}
-	}
+      defaultConfig{
+          //记得添加下面两个（renderscriptTargetApi、renderscriptSupportModeEnabled）
+          renderscriptTargetApi 19
+          renderscriptSupportModeEnabled true
+      }
+
+	  repositories {
+            flatDir {
+            dirs 'libs'
+            }
+         }
+
+     dependencies {
+            compile (name:'gblurredibrary-v1.0.0',ext:'aar')
+     }
 ```
 
-Step 2. Add the dependency
-```java
-	dependencies {
-	        compile 'com.github.GuoZhiHao9396:GBlurredView:v1.0.0'
-	}
-```
-Or Maven:
-
-Step 1. Add the JitPack repository to your build file
-
-gradle
-maven
-sbt
-leiningen
-```java
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
-```
-
-Step 2. Add the dependency
-```java
-	<dependency>
-	    <groupId>com.github.GuoZhiHao9396</groupId>
-	    <artifactId>GBlurredView</artifactId>
-	    <version>v1.0.0</version>
-	</dependency>
-```
 
 #属性介绍
 

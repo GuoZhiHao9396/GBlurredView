@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.gzh.blurredibrary.BlurredView;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private SeekBar mSeekBar;
