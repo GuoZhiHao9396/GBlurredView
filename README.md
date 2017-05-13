@@ -1,5 +1,5 @@
 # GBlurredView
-#高斯模糊
+# 高斯模糊
 
 ![image](https://github.com/GuoZhiHao9396/GBlurredView/blob/master/app/src/main/res/raw/test.gif)
 
@@ -25,7 +25,7 @@ Add it in your root build.gradle at the end of repositories:
 ```
 
 
-#属性介绍
+# 属性介绍
 
 ```java
       showBlurredView：显示模糊图片
@@ -38,7 +38,7 @@ Add it in your root build.gradle at the end of repositories:
       setBlurredLevel：设置模糊程度（0~100 之间）
 ```
 
-#使用介绍
+# 使用介绍
 
 1.配置布局
 
@@ -65,7 +65,7 @@ Add it in your root build.gradle at the end of repositories:
 ```
 
 
-#License
+# License
 ```text
 Copyright 2017 ZhiHao Guo
 
